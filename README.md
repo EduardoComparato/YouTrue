@@ -28,6 +28,9 @@ ___
 - **👍Avaliação de Confiabilidade**
 > Atribui um grau de confiabilidade ao conteúdo do vídeo original com base na quantidade de erros encontrados.
 
+# Screenshot
+![YouTrue](https://github.com/user-attachments/assets/826ef11b-6852-4ebc-b697-1cf8c8a7bcdd)
+
 # Instruções
 
 ### Passo 1: Tipo
