@@ -6,6 +6,8 @@
 ## Linguagem utilizada
 <img src="https://static.wixstatic.com/media/efe4c3_6865853cc59c4bc89ef3191bba086130~mv2.jpg/v1/fill/w_560,h_188,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/efe4c3_6865853cc59c4bc89ef3191bba086130~mv2.jpg" height="20">
 
+# Objetivo
+Auxiliar na verificação de confiabilidade de conteúdos no YouTube e textos brutos, detectando desinfomação, uso de fake news ou afins, e incongruências, tendo relevância acadêmica, científica e social.
 ___
 # Requisitos
 - Google Colab
