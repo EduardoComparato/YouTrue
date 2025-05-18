@@ -4,7 +4,7 @@
 **YouTrue** é um sistema multi-agentes de verificação de informações projetado para analisar e validar o conteúdo de vídeos do YouTube e textos brutos. Utilizando uma arquitetura baseada em agentes, o sistema transcreve vídeos, revisa o texto, busca fontes relevantes e aponta possíveis erros ou inconsistências, indicando graus de confiabilidade.
 
 ## Linguagem utilizada
-<img src="https://static.wixstatic.com/media/efe4c3_6865853cc59c4bc89ef3191bba086130~mv2.jpg/v1/fill/w_560,h_188,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/efe4c3_6865853cc59c4bc89ef3191bba086130~mv2.jpg" height="50">
+<img src="https://static.wixstatic.com/media/efe4c3_6865853cc59c4bc89ef3191bba086130~mv2.jpg/v1/fill/w_560,h_188,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/efe4c3_6865853cc59c4bc89ef3191bba086130~mv2.jpg" height="20">
 
 ___
 # Requisitos
@@ -44,13 +44,29 @@ Caso tenha selecionado a 1° opção, deve ser fornecido o ID, não o URL. A seg
 - Link exemplo: https://youtu.be/dQw4w9WgXcQ?si=KQ9WdBWFJ97sI_QK
   - O ID é o que se encontra entre ".be/" e "?si", no caso, dQw4w9WgXcQ
 
-- ⚠️ Em caso de erro no 1° agente, tente fornecer o ID novamente ou reinicie a página.
+> [!WARNING]
+>
+> Em caso de erro no 1° agente, tente fornecer o ID novamente ou reinicie a página.
+
+> [!TIP]
+>
+> Para um melhor aproveitamento, forneça vídeos e textos com conteúdos que seja possível a investigação por pesquisa. 
 
 # Limitações
 - A precisão da transcrição pode variar dependendo da qualidade do áudio do vídeo
 - A disponibilidade de transcrições pode variar dependendo das configurações do vídeo no YouTube
 - O sistema se concentra em fontes textuais e pode não ser adequado para analisar conteúdo altamente visual
 ___
+# FAQ
+
+### Q: Como posso executar o código por outra IDE ou plataforma externa além do Google Colab?
+
+Por ser necessário a instalação de bibliotecas do Google, recomenda-se a execução no Google Colab para maior facilidade.
+Caso deseje executar em outro local, provavelmente será necessária a instalação do Python 3.x. Cada IDE e plataforma funciona de maneira diferente, então deverá verificar como instalar cada biblioteca utilizada no código na plataforma/IDE que for executar.
+
+# Créditos
+Gostaria de dar os créditos a Alura e principalmente todos os envolvidos na Imersão IA Alura + Google Gemini de 2025, contexto para o qual este projeto foi desenvolvido. Agradeço aos hosts Fabrício Carraro, Luciano Martins e Valquíria Alencar, assim como a comunidade do Discord feita para a imersão, onde pude trocar ideias, sugestões, conselhos e apoios.
+
 # Contribuições
 Contribuições para o projeto são bem-vindas 😁! Se você tiver
 - **Sugestões de melhoria**;
